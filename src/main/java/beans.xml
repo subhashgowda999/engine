@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="car" class="com.dcl.engine.Car">
+    <property name="engine" ref="petrol"></property></bean>
+    <bean id="petrol" class="com.dcl.engine.Petrol"></bean>
+    <bean id="diesel" class="com.dcl.engine.Diesel"></bean>
+    <bean id="cng" class="com.dcl.engine.Cng"></bean>
+    
+    
+
+</beans>
